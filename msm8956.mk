@@ -81,18 +81,24 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
     android.hardware.audio.effect@2.0-impl \
     android.hardware.audio.effect@2.0-service \
+    android.hardware.broadcastradio@1.0-impl \
     android.hardware.soundtrigger@2.0-impl \
-    android.hardware.soundtrigger@2.0-service \
-    audio.a2dp.default \
+    android.hardware.soundtrigger@2.0-service
+
+PRODUCT_PACKAGES += \
     audio.primary.msm8952 \
+    audio.a2dp.default \
     audio.r_submix.default \
     audio.usb.default \
     libaudio-resampler \
-    libaudioroute \
+    libtinycompress
+
+PRODUCT_PACKAGES += \
     libqcompostprocbundle \
+    libvolumelistener \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libtinycompress \
+    libqcomvoiceprocessingdescriptors \
     tinymix
 
 PRODUCT_COPY_FILES += \

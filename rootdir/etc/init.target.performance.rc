@@ -118,6 +118,11 @@ on property:sys.boot_completed=1
     write /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_rate_screenoff 50000
     write /sys/devices/system/cpu/cpu4/cpufreq/interactive/timer_slack 40000
 
+    # Input boost configuration
+    write /sys/module/cpu_boost/parameters/input_boost_freq "0:1190400"
+    write /sys/module/cpu_boost/parameters/input_boost_ms 400
+
+
     # Set Swappiness
     write /proc/sys/vm/swappiness 60
 

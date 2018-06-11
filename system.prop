@@ -37,6 +37,9 @@ persist.bt.enableAptXHD=true
 # Enable B-service aging propagation on memory pressure.
 ro.vendor.qti.sys.fw.bservice_enable=true
 
+# Boot
+sys.vendor.shutdown.waittime=500
+
 # Camera
 media.camera.ts.monotonic=1
 persist.camera.HAL3.enabled=1

@@ -39,6 +39,7 @@ ro.vendor.qti.sys.fw.bservice_enable=true
 
 # Boot
 sys.vendor.shutdown.waittime=500
+ro.build.shutdown_timeout=0
 
 # Camera
 media.camera.ts.monotonic=1

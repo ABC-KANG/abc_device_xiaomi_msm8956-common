@@ -96,7 +96,6 @@ service thermal-engine /system/vendor/bin/thermal-engine
 
 on boot
     start rmt_storage
-    write /proc/sys/kernel/sched_boost 1
 
 service wcnss-service /system/bin/wcnss_service
     class main
